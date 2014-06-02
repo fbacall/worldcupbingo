@@ -1,0 +1,93 @@
+body {
+    font:13px/1.231 'Open Sans', arial,helvetica,clean,sans-serif;
+    color: #333333;
+    line-height: 1.5;
+    margin: 0;
+    /*padding: 20px;*/
+    letter-spacing: .05em;
+}
+.price {
+    font-size: 25px;
+    float: right;
+}
+
+table {
+    font-size:inherit;
+    font: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #BBB;
+    /*margin-top: 2em;*/
+}
+
+td {
+    width: 33%;
+    border: 1px solid #DDD;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #F7F7F7;
+    padding: 1em;
+}
+
+td img.flag {
+    height: 6em;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+}
+
+td p.team-name {
+    margin: 0.7em 0 0 0;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+tr {
+}
+
+h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+    color: #444;
+    font-size: 197%;
+}
+
+.bingo {
+    page-break-after: always;
+}
+
+.rules {
+    font-size: 92%;
+    margin: 1em 0 1.5em 0;
+    border: 1px solid #DDD;
+    background: #FFFFCC;
+    padding: 10px;
+    line-height: 1.4;
+    /*width: 46em;*/
+    border-radius: 10px;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+}
+
+.rules li {
+    margin-left: 1.5em;
+    font-style: italic;
+}
+
+.gen-rules {
+    margin: 0;
+    font-size: 90%;
+}
+.hash {
+    margin: 0.5em 0;
+    border: 1px solid #DDE;
+    background-color: #F5F5F5;
+    float: right;
+    padding: 5px;
+    border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
+}
